@@ -29,12 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         RoundProgressBar roundProgressBar = findViewById(R.id.roundedProgressBar);
 
-        roundProgressBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hello", Toast.LENGTH_SHORT).show();
-            }
-        });
+        roundProgressBar.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Hello", Toast.LENGTH_SHORT).show());
 
 
 
