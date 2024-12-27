@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="progressMax" format="integer" />
+        <attr name="indeterminateMode" format="boolean" />
+        <attr name="progressBarColor" format="color" />
+        <attr name="progressBarColorStart" format="color" />
+        <attr name="progressBarColorEnd" format="color" />
+        <attr name="progressBarColorDirection">
+            <flag name="LEFT_TO_RIGHT" value="1" />
+            <flag name="RIGHT_TO_LEFT" value="2" />
+            <flag name="TOP_TO_BOTTOM" value="3" />
+            <flag name="BOTTOM_TO_TOP" value="4" />
+        </attr>
+        <attr name="progressBarBackgroundColor" format="color" />
+        <attr name="progressBarBackgroundColorStart" format="color" />
+        <attr name="progressBarBackgroundColorEnd" format="color" />
+        <attr name="progressBarBackgroundColorDirection">
+            <flag name="LEFT_TO_RIGHT" value="1" />
+            <flag name="RIGHT_TO_LEFT" value="2" />
+            <flag name="TOP_TO_BOTTOM" value="3" />
+            <flag name="BOTTOM_TO_TOP" value="4" />
+        </attr>
+        <attr name="progressBarWidth" format="dimension" />
+        <attr name="progressBarBackgroundWidth" format="dimension" />
+        <attr name="setRoundBorder" format="boolean" />
+        <attr name="progressStartAngle" format="float" />
+        <attr name="progressDirection">
+            <flag name="TO_RIGHT" value="1" />
+            <flag name="TO_LEFT" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
